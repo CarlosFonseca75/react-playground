@@ -1,75 +1,73 @@
-# React + TypeScript + Vite
+# React Playground 🧪
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of frontend exercises and experiments built with **React + TypeScript**.
 
-Currently, two official plugins are available:
+This is a space to practice real-world React patterns, explore different frontend techniques, and experiment with new ideas. 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧩 Exercises
 
-## React Compiler
+- **Pagination** — Practice pagination with data from a REST API.
+- **Infinite Scroll** — Practice loading more data as the user scrolls.
+- **Intersection Observer** — Experiment with the Intersection Observer API.
+- **Charts** — Build data visualizations with different charting libraries using D3.js.
+- **More coming soon...** ✨
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Vite
+- React Router
+- SCSS
+- CSS Modules
+- pnpm
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎯 Goals
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Practice React patterns
+- Improve frontend architecture
+- Experiment with browser APIs
+- Practice working with REST APIs
+- Explore performance techniques
+- Build reusable UI components
+- Prepare for technical interviews
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository and install the dependencies:
 
+```bash
+pnpm install
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Start the development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+pnpm dev
 ```
+
+Then open the local URL shown in the terminal.
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/   # Reusable UI components
+├── constants/    # Static application data
+├── hooks/        # Custom React hooks
+├── pages/        # Individual exercises and pages
+├── services/     # API and external services
+├── styles/       # Global styles, variables and mixins
+├── types/        # TypeScript types
+└── utils/        # Shared utility functions
+```
+
+## 💡 Why this project?
+
+This playground is intentionally simple.
+
+The goal is not to build a production application, but to have a place where I can **practice, experiment, break things, and learn** while keeping the code clean and easy to understand.
+
+---
+
+Built with ☕, React, and curiosity.
