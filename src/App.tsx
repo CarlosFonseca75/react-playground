@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router";
+
+import { Layout } from "./components/Layout/Layout";
 import { Home } from "./pages/Home/Home";
 import { NotFound } from "./pages/NotFound/NotFound";
 import { Pagination } from "./pages/Pagination/Pagination";
-import { Layout } from "./components/Layout/Layout";
 
 function App() {
   return (
