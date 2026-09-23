@@ -1,0 +1,16 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  width: min(100% - 4rem, var(--container-width));
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
