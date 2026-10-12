@@ -1,0 +1,35 @@
+.form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.location {
+  width: 100%;
+
+  input {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  select {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  @include media-breakpoint(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+}
