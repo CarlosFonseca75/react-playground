@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "address": "123 Oak Street",
+    "city": "Austin",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1800,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+1"
+  },
+  {
+    "id": "2",
+    "address": "456 Pine Avenue",
+    "city": "Dallas",
+    "price": 425000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2200,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+2"
+  },
+  {
+    "id": "3",
+    "address": "789 Maple Drive",
+    "city": "Austin",
+    "price": 275000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1400,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+3"
+  },
+  {
+    "id": "4",
+    "address": "101 Cedar Lane",
+    "city": "Houston",
+    "price": 520000,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "squareFeet": 3100,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+4"
+  },
+  {
+    "id": "5",
+    "address": "202 Birch Court",
+    "city": "Dallas",
+    "price": 315000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1650,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+5"
+  },
+  {
+    "id": "6",
+    "address": "303 Willow Way",
+    "city": "San Antonio",
+    "price": 240000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFeet": 1200,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+6"
+  },
+  {
+    "id": "7",
+    "address": "404 Elm Street",
+    "city": "Austin",
+    "price": 610000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2600,
+    "status": "inactive",
+    "imageUrl": "https://placehold.co/600x400?text=Property+7"
+  },
+  {
+    "id": "8",
+    "address": "505 Cherry Boulevard",
+    "city": "Houston",
+    "price": 390000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1900,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+8"
+  },
+  {
+    "id": "9",
+    "address": "606 Aspen Road",
+    "city": "San Antonio",
+    "price": 465000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2400,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+9"
+  },
+  {
+    "id": "10",
+    "address": "707 Walnut Street",
+    "city": "Dallas",
+    "price": 199000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFeet": 950,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+10"
+  },
+  {
+    "id": "11",
+    "address": "808 Magnolia Drive",
+    "city": "Austin",
+    "price": 485000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFeet": 2150,
+    "status": "active",
+    "imageUrl": "https://placehold.co/600x400?text=Property+11"
+  },
+  {
+    "id": "12",
+    "address": "909 Cypress Court",
+    "city": "Houston",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1750,
+    "status": "pending",
+    "imageUrl": "https://placehold.co/600x400?text=Property+12"
+  }
+]

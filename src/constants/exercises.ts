@@ -11,4 +11,9 @@ export const EXERCISES: Exercise[] = [
     description: "Practice loading more data as the user scrolls.",
     path: "/infinite-scroll",
   },
+  {
+    title: "Fetching Data",
+    description: "Practice fetching data, filtering and styling",
+    path: "/fetching-data",
+  },
 ];
